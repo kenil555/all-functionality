@@ -1,0 +1,5 @@
+   implementation 'com.google.android.gms:play-services-auth:21.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:13.0.0'
+
+
+https://www.youtube.com/watch?v=gaykE36N7PY   (Link for google login, facebook login , via Firebase User  Authetication)
