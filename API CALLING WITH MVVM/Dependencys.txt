@@ -1,0 +1,13 @@
+   *Retrofit Gson Converter and Google gson*
+
+ implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.googlegson)
+    implementation libs.retrofit.okhttp
+
+
+*Live Data *
+
+   implementation(libs.androidx.lifecycle.viewmodel)
+    implementation(libs.androidx.lifecycle.livedata)
+    implementation(libs.androidx.lifecycle.common.java8)

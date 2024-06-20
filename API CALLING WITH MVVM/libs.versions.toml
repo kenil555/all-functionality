@@ -1,0 +1,124 @@
+[versions]
+airbnb-lottie = "6.4.0"
+androidGradlePlugin = "8.2.0"
+androidLibraryVersion = "7.4.2"
+
+googleService = "4.3.14"
+firebaseCrashlytcs = "2.9.9"
+appComptVersion = "1.6.1"
+jacksonDatabind = "2.13.0"
+konfettiXml = "2.0.4"
+lifecycleLivedata = "2.7.0"
+lifecycleViewmodel = "2.7.0"
+okhttp = "4.11.0"
+pinview = "1.4.4"
+review = "2.0.1"
+roomRuntime = "2.6.1"
+sdpVersion = "1.1.0"
+sspVersion = "1.1.0"
+audienceNetworkSdk = "6.12.0"
+facebookSdk = "6+"
+github-glide = "4.14.2"
+googleMaterial = "1.11.0"
+junit = "4.13.2"
+androidx-test-espresso = "3.5.1"
+androidx-test-ext-junit = "1.1.5"
+fast-save ="1.0.6"
+life-cycle ="2.2.0"
+life-cycle-runtime ="2.5.1"
+androidx-constraint ="2.1.4"
+lottie ="5.2.0"
+designertoast ="0.1.3"
+colorpicker ="2.3.0"
+picasso = "2.71828"
+retrofit = "2.11.0"
+round-image ="2.3.0"
+glide ="4.13.0"
+glide-compiler ="4.13.0"
+multidex ="2.0.1"
+licensesdialog ="2.1.0"
+dotindicator ="5.0"
+shimmer ="0.5.0"
+dexter ="6.2.3"
+gson ="2.9.0"
+googleads ="22.2.0"
+lifecyclercompiler ="2.5.1"
+lifecyclerprocess ="2.5.1"
+onesignal ="[4.0.0, 4.99.99]"
+firebaseconfig = "21.6.0"
+firebaseBom = "32.1.1"
+pushDownVersion = "1.1.1"
+objecthunter = "0.4.8"
+rahinoAndroid = "1.2.0"
+grovvyEngine = "1.0"
+playcore = "1.10.3"
+
+
+
+
+
+[libraries]
+
+androidx-appcompat = {module ="androidx.appcompat:appcompat" , version.ref="appComptVersion"}
+androidx-lifecycle-common-java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycleViewmodel" }
+androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleLivedata" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "roomRuntime" }
+intuit-sdp = {module ="com.intuit.sdp:sdp-android" , version.ref="sdpVersion"}
+intuit-ssp = {module ="com.intuit.ssp:ssp-android" , version.ref="sspVersion"}
+androidx-constraint = { module = "androidx.constraintlayout:constraintlayout" , version.ref = "androidx-constraint"}
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audienceNetworkSdk" }
+facebookSdk = { module = "com.facebook.android:facebook-android-sdk" , version.ref = "facebookSdk"}
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "github-glide" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+google-material = {module ="com.google.android.material:material" , version.ref="googleMaterial"}
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonDatabind" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
+androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-test-ext-junit" }
+fast-save = { module = "com.github.yehiahd:FastSave-Android", version.ref = "fast-save"}
+androidx-lifecycle = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "life-cycle"}
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "life-cycle-runtime"}
+androidx-lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie"}
+androidx-toast = { module = "com.github.vedraj360:DesignerToast", version.ref = "designertoast"}
+konfetti-xml = { module = "nl.dionsegijn:konfetti-xml", version.ref = "konfettiXml" }
+lottie-v640 = { module = "com.airbnb.android:lottie", version.ref = "airbnb-lottie" }
+retrofit-okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+pinview = { module = "io.github.chaosleung:pinview", version.ref = "pinview" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+skydove-colorpicker = { module = "com.github.skydoves:colorpickerview", version.ref = "colorpicker"}
+round-image = { module = "com.makeramen:roundedimageview", version.ref = "round-image"}
+glideDepenacy = { module = "com.github.bumptech.glide:glide", version.ref = "glide"}
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide-compiler"}
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex"}
+licensesdialog = { module = "de.psdev.licensesdialog:licensesdialog", version.ref = "licensesdialog"}
+dotindicator = { module = "com.tbuonomo:dotsindicator", version.ref = "dotindicator"}
+facebookshimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer"}
+dexter = { module = "com.karumi:dexter", version.ref = "dexter"}
+googlegson = { module = "com.google.code.gson:gson", version.ref = "gson"}
+googleads = { module = "com.google.android.gms:play-services-ads", version.ref = "googleads"}
+life-cycle-compiler = {module = "androidx.lifecycle:lifecycle-compiler",version.ref = "lifecyclercompiler"}
+life-cycle-process = {module = "androidx.lifecycle:lifecycle-process",version.ref = "lifecyclerprocess"}
+onesingle = { module = "com.onesignal:OneSignal", version.ref = "onesignal"}
+firebaseconfig = { module = "com.google.firebase:firebase-config", version.ref = "firebaseconfig"}
+firebaseAnyltics = { module = "com.google.firebase:firebase-analytics-ktx"}
+firebaseCrashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx"}
+firebaseBoM = { module = "com.google.firebase:firebase-bom",version.ref="firebaseBom"}
+pushDown = { module="com.github.thekhaeng:pushdown-anim-click", version.ref="pushDownVersion"}
+objectHunter = { module="net.objecthunter:exp4j", version.ref="objecthunter"}
+rahinoAndroids = { module="io.apisense:rhino-android", version.ref="rahinoAndroid"}
+groovyEngine = { module="javax.script:groovy-engine", version.ref="grovvyEngine"}
+android-google-playcore = { module="com.google.android.play:core", version.ref="playcore"}
+google-in-app-review = { module = "com.google.android.play:review", version.ref = "review" }
+
+
+
+[plugins]
+android-applcation = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidLibraryVersion" }
+google-service = { id = "com.google.gms.google-services", version.ref = "googleService" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlytcs" }
